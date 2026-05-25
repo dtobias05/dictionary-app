@@ -8,7 +8,6 @@ export default function Dictionary() {
     let [results, setResults] = useState(null);
 
     function handleResponse(response) {
-        console.log(response.data);
         setResults(response.data);
     }
 
@@ -24,8 +23,7 @@ export default function Dictionary() {
 
     return <div className="dictionary">
         <form onSubmit={search}>
-            <input type="search" onChange={handleKeywordChange} autoFocus={true} />
-            <button type="submit">Search</button>
+            <input type="search" onChange={handleKeywordChange} />
         </form>
         <Results results={results} />
         </div>;
