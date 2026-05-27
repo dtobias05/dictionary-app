@@ -17,7 +17,7 @@ header h1 {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-weight: bold;
-  color: #dfdcd5;
+  color: thistle;
 
 }
 
@@ -26,4 +26,8 @@ header h1 {
   margin: 30px 0;
   color: #dfdcd5;
   font-weight: bold;
+}
+
+.App a {
+  color:thistle;
 }
