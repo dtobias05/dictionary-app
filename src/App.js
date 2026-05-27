@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
+        <h1>📖 Glossary Vault</h1>
       </header>
       <main>
         <Dictionary defaultKeyword="hello"/>
